@@ -1,0 +1,77 @@
+.w3-top {
+    background-color: grey;
+    z-index: 100;
+}
+
+.margin {
+    margin: auto
+}
+
+#bottoneCerca {
+    background-image: url('../img/cerca.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #D2D2D2;
+    margin: 0px;
+    width: 40px;
+    border-radius: 0px 4px 4px 0px;
+    padding: 0px;
+    height: 40px;
+    margin-right: 1em;
+}
+
+.centered {
+    margin-left: 45%;
+}
+
+#mySidebar,
+#list {
+    width: 25% !important;
+    display: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Karma", sans-serif
+}
+
+.w3-bar-block .w3-bar-item {
+    padding: 20px
+}
+
+#list {
+    display: none;
+}
+
+#listElements {
+    padding: 0.9em;
+}
+
+.hover {
+    cursor: pointer;
+}
+
+#drop{
+    position: absolute;
+    bottom: 5px;
+    width: 90%;
+    z-index: 0;
+}
+
+#drop :hover{
+    background-color: rgb(184, 11, 11);
+}
+
+.trash{
+    background-color: rgb(202, 99, 99);
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
