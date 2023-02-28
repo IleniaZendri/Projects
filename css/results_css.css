@@ -1,0 +1,35 @@
+#results_container{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding:3em;
+}
+
+.results_item{
+    margin-top: 2em;
+    border-style: solid;
+    border-color: black;
+    background-color: lightgrey;
+    overflow: hidden;
+}
+
+.results_item:hover{
+    cursor: pointer;
+}
+
+.results_img{
+    float: left;   
+    max-height: 20em;
+    max-width: 20em;
+    padding: 1em;
+  
+}
+
+.results_title{
+    
+}
+
+.results_text{
+    padding-left: 1em;    
+}

@@ -1,0 +1,68 @@
+#container {
+	margin: 0 auto;
+	margin-top: 5em;
+	width: 60%;
+}
+
+#recipe {
+	display: block;
+	padding-top: 1em;
+}
+
+.recipe_img {
+	float: left;
+	max-width: 30em;
+	max-height: 30em;
+	padding-right: 1em;
+}
+
+#comment_container {
+	clear: both;
+	padding-top: 3em;
+}
+
+#comment_container h3{
+	text-align: center;
+}
+
+.comment {
+	border-top: 2px solid grey;
+}
+
+#comment{
+	margin-bottom: 10em;
+}
+
+.comment p {
+	word-wrap: break-word;
+}
+
+#corpo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 98%;
+}
+
+#comment_right {
+	float: right;
+}
+
+textarea {
+	border: 1px solid #888;
+	resize: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#buttonScrivi {
+	margin: 1em;
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
+	padding-right: 1em;
+	padding-left: 1em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
