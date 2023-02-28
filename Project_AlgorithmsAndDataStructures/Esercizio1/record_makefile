@@ -1,0 +1,12 @@
+exec_record : record_list.o list_test.o merge_sort.o
+	gcc record_list.o list_test.o merge_sort.o
+
+record_list.o : list.h record_list.c
+	gcc -c record_list.c
+
+list_test.o : test_list.h list_test.c
+	gcc -c list_test.c
+
+merge_sort.o : merge_sort.c
+	gcc -c merge_sort.c
+

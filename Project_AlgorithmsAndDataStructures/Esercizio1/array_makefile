@@ -1,0 +1,12 @@
+exec_array : array_list.o list_test.o merge_sort.o
+	gcc array_list.o list_test.o merge_sort.o
+
+array_list.o : list.h array_list.c
+	gcc -c array_list.c
+
+list_test.o : test_list.h list_test.c
+	gcc -c list_test.c
+
+merge_sort.o : merge_sort.c
+	gcc -c merge_sort.c
+

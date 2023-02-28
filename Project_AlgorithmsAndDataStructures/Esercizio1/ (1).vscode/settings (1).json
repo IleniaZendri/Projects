@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "TESTDESKEY.C": "cpp",
+        "TESTUTY.C": "cpp",
+        "TESTUNIT.C": "cpp",
+        "test_list.h": "c",
+        "stdlib.h": "c"
+    }
+}
