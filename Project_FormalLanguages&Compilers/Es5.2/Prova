@@ -1,0 +1,11 @@
+read(x);
+
+read(y);
+if x>y then
+  	begin
+	print(x);
+	print(y)
+	end
+else
+	for(j=0;j<x)do
+	 print(j)

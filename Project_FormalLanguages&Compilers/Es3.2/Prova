@@ -1,0 +1,4 @@
+read(x);
+for(j=1;j<=2*x)do
+	if j>x then print(j) else print(j+10);
+print(x)
